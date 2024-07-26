@@ -25,8 +25,7 @@ export default function Home() {
                   className="p-8 mb-8 md:mb-0 text-2xl w-full sm:w-fit border-t-2 rounded-full border-[#4D4D4D] bg-[#1F1F1F] hover:bg-white group transition-all flex items-center justify-center gap-4 hover:shadow-xl hover:shadow-neutral-500 duration-500"
                 >
                   <span className="bg-clip-text text-transparent bg-gradient-to-r from-neutral-500 to-neutral-600  md:text-center font-sans group-hover:bg-gradient-to-r group-hover:from-black goup-hover:to-black">
-                    Start For Free Today
-                  </span>
+                    <a href="/dashboard">Start For Free Today </a> </span>
                 </Button>
                 <h1 className="text-5xl md:text-8xl  bg-clip-text text-transparent bg-gradient-to-b from-white to-neutral-600 font-sans font-bold">
                   Automate Your Work With Fuzzie
@@ -90,8 +89,8 @@ export default function Home() {
                   as="button"
                   className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
                 >
-                  Get Started Now
-                </CardItem>
+                  <a href="/dashboard"> Get Started Now </a> 
+                  </CardItem>
               </div>
             </CardBody>
           </CardContainer>
@@ -137,8 +136,8 @@ export default function Home() {
                   as="button"
                   className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
                 >
-                  Get Started Now
-                </CardItem>
+                  <a href="/dashboard"> Get Started Now </a> 
+                  </CardItem>
               </div>
             </CardBody>
           </CardContainer>
@@ -184,7 +183,7 @@ export default function Home() {
                   as="button"
                   className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
                 >
-                  Get Started Now
+                  <a href="/dashboard"> Get Started Now </a> 
                 </CardItem>
               </div>
             </CardBody>
